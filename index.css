@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato";
+  margin: 0;
+}
+#App{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  min-width: 880px;
+  display: flex;
+}
+.home{
+  font-size: 40px;
+}
+.visual-mode {
+  border: none;
+  text-decoration: none;
+  background: transparent;
+}
+.header{
+  width: 100%;
+    display: flex;
+  justify-content: space-between;
+}
+.input{
+  width: 40%;
+  background: whitesmoke;
+  border: none;
+}
+.pokeBall{
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+}
+.contenedor{
+  display: flex;
+  min-width: 500px;
+  width: 100%;
+}
+.filters{
+  padding: 15px;
+}
+.filter-button{
+  width: 160px;
+}
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 880px;
+}
+.pokeCard {
+	margin: 10px;
+	padding: 10px;
+  text-align: center;
+  width: 200px;
+  height: 300px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: whitesmoke;
+}
+
+.pokeCard .info {
+  margin-top: 20px;
+}
+
+.pokeCard .id {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.pokeCard .nombre {
+  margin: 15px 0 7px;
+  letter-spacing: 1px;
+}
+
+.box{
+  width: 1500px;
+  height: 600px;
+}
